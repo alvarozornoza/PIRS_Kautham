@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+-<Benchmark Name="1_RRT">
+    <Problem PlannerAlias="RRT" File="OMPL_RRT_fromInitialPositionToTable1_NoColumns.xml"/>
+    <Problem PlannerAlias="RRTconnect" File="OMPL_RRTConnect_fromInitialPositionToTable1_NoColumns.xml"/>
+    <Problem PlannerAlias="RRTstar" File="OMPL_RRTstar_fromInitialPositionToTable1_NoColumns.xml"/>
+    <Parameter Name="maxTime" Value="1.5"/>
+    <Parameter Name="maxMem" Value="8000"/>
+    <Parameter Name="runCount" Value="10"/>
+    <Parameter Name="displayProgress" Value="true"/>
+    <Parameter Name="filename" Value="1_RRT.log"/>
+</Benchmark>
