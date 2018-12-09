@@ -20,7 +20,4 @@
      
                OMPL_planner i_query j.xml 
            
-     TO DO: create 8 benchmarking files of the type:
-              
-               bench_query i_RRT.xml (for the three RRT planners)
-               bench_query i_PRM.xml (for the two PRM planners)
+     TO DO: Benchmark files were created but simulation must be tuned
