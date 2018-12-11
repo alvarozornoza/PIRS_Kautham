@@ -33,7 +33,7 @@
 		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.0" Y="0.0" X="0.0" />
 	</Obstacle>
 	<Obstacle obstacle="obstacles/columns.iv" scale="0.018">
-		<Home TH="0.0" WZ="0.0" WY="0.0" WX="1.0" Z="0.0" Y="1.5" X="-1.5" />
+		<Home TH="1.57" WZ="1.0" WY="0.0" WX="0.0" Z="0.0" Y="1.8" X="-1.2" />
 	</Obstacle>
 
 	<Controls robot="controls/TX90_6dof_RHand_5PMD.cntr" />
@@ -49,9 +49,9 @@
 			<Parameter name="Speed Factor">10</Parameter>
 		</Parameters>
 		<Queries>
-			<Query> // --> init and final position must be checked
-				<Init dim="13">1 0 0.373 0.359 0.969 0.332 0.6 0.837 1 0.5 0 0.698 0.881</Init>
-				<Goal dim="13">0.891 0.121 0.270 0.359 0.969 0.332 0.6 0.837 1 0.5 0 0.698 0.881</Goal>
+			<Query> 
+				<Init dim="13">0.863 0.431 0.373 0.359 0.969 0.332 0.6 0.837 1 0.5 0 0.698 0.881</Init>
+				<Goal dim="13">0.891 0.121 0.270 0.423 0.935 0.339 0.582 0.840 1 0.234 0.009 0.762 0.907</Goal>
 			</Query>
 		</Queries>
 	</Planner>

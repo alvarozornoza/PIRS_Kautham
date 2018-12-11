@@ -38,7 +38,7 @@
 	<Controls robot="controls/TX90_6dof_RHand_5PMD.cntr" />
 	<Planner>
 		<Parameters>
-			<Name>omplRRT</Name> --> parameters must be checked
+			<Name>omplRRT</Name> 
 			<Parameter name="Cspace Drawn">0</Parameter>
 			<Parameter name="Incremental (0/1)">0</Parameter>
 			<Parameter name="Max Planning Time">300</Parameter>
@@ -48,9 +48,9 @@
 			<Parameter name="Speed Factor">10</Parameter>
 		</Parameters>
 		<Queries>
-			<Query> // --> init and final position must be checked
-				<Init dim="13">1 0 0.373 0.359 0.969 0.332 0.6 0.837 1 0.5 0 0.698 0.881</Init>
-				<Goal dim="13">0.891 0.121 0.270 0.359 0.969 0.332 0.6 0.837 1 0.5 0 0.698 0.881</Goal>
+			<Query> 
+				<Init dim="13">0.863 0.431 0.373 0.359 0.969 0.332 0.6 0.837 1 0.5 0 0.698 0.881</Init>
+				<Goal dim="13">0.891 0.121 0.270 0.423 0.935 0.339 0.582 0.840 1 0.234 0.009 0.762 0.907</Goal>
 			</Query>
 		</Queries>
 	</Planner>
