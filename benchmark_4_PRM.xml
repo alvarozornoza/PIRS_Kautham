@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 -<Benchmark Name="4_PRM">
-    <Problem PlannerAlias="PRM" File="OMPL_PRM_fromTable1ToTable2_WithColumns.xml"/>
-    <Problem PlannerAlias="PRMbias" File="OMPL_PRMBias_fromTable1ToTable2_WithColumns.xml"/>
-    <Parameter Name="maxTime" Value="10.0"/>
+    <Problem PlannerAlias="PRM" File="OMPL_PRM_fromTable1ToTable2_withColumns.xml"/>
+    <Problem PlannerAlias="PRMbias" File="OMPL_PRMBias_fromTable1ToTable2_withColumns.xml"/>
+    <Parameter Name="maxTime" Value="100.0"/>
     <Parameter Name="maxMem" Value="1000.0"/>
     <Parameter Name="runCount" Value="10"/>
     <Parameter Name="displayProgress" Value="true"/>
