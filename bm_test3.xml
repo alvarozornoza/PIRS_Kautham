@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+-<Benchmark Name="test3">
+    <Problem PlannerAlias="PRM" File="OMPL_PRM_fromInitialPositionToTable1_withColumns.xml"/>
+    <Problem PlannerAlias="PRMbias" File="OMPL_PRMBias_fromInitialPositionToTable1_withColumns.xml"/>
+    <Problem PlannerAlias="RRTconnect" File="OMPL_RRTConnect_fromInitialPositionToTable1_withColumns.xml"/>
+    <Parameter Name="maxTime" Value="200.0"/>
+    <Parameter Name="maxMem" Value="1000.0"/>
+    <Parameter Name="runCount" Value="5"/>
+    <Parameter Name="displayProgress" Value="true"/>
+    <Parameter Name="filename" Value="test3.log"/>
+</Benchmark>
