@@ -20,4 +20,4 @@
      
                OMPL_planner i_query j.xml 
            
-     TO DO: Benchmark files were created but simulation must be tuned
+     Finally we create the benchamark files to evaluate the algorithms.
