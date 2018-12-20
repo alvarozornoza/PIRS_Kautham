@@ -16,8 +16,4 @@
           - RRT connected
           - RRT star
       
-     For this reason we modified the control file in order to create a mobile base robot. We also created 20 .xml files of the type:
-     
-               OMPL_planner i_query j.xml 
-           
-     Finally we create the benchamark files to evaluate the algorithms.
+  
